@@ -2,28 +2,28 @@
 class PocketBuddy < Formula
   desc "Developer key manager for sovn-keys: SSH keys, git signing and identity tokens"
   homepage "https://github.com/sovnedge/homebrew-public"
-  version "0.1.0"
+  version "0.2.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/sovnedge/homebrew-public/releases/download/pocket-buddy-v0.1.0/pocket-buddy_0.1.0_darwin_arm64.tar.gz"
-      sha256 "5e92806f7cb1a275d31a6ebdc432be69a577b10b0484319320a30fce712efcdd"
+      url "https://github.com/sovnedge/homebrew-public/releases/download/pocket-buddy-v0.2.0/pocket-buddy_0.2.0_darwin_arm64.tar.gz"
+      sha256 "da321c4733d71cb95b0b3270705ba7e1f39fa1b7dc3d9d9ab69b9243d109b8b4"
     end
     on_intel do
-      url "https://github.com/sovnedge/homebrew-public/releases/download/pocket-buddy-v0.1.0/pocket-buddy_0.1.0_darwin_amd64.tar.gz"
-      sha256 "f15630c03782b1eda81b9aee735805cffaeed65c1d7c7fa29f162ec25442c3c1"
+      url "https://github.com/sovnedge/homebrew-public/releases/download/pocket-buddy-v0.2.0/pocket-buddy_0.2.0_darwin_amd64.tar.gz"
+      sha256 "3b26d24e09726a391fd37ef26ef3082d67772c2599a39fec89f0a698c08a50e8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sovnedge/homebrew-public/releases/download/pocket-buddy-v0.1.0/pocket-buddy_0.1.0_linux_arm64.tar.gz"
-      sha256 "28509f652f3f746b8a2a0627ce26050f01c746891b15db8aaeab068c8cad8911"
+      url "https://github.com/sovnedge/homebrew-public/releases/download/pocket-buddy-v0.2.0/pocket-buddy_0.2.0_linux_arm64.tar.gz"
+      sha256 "8f9b5313e20c23639a7209c3220bb3aec6d4b1eea446dc1056bd3eb2d4867665"
     end
     on_intel do
-      url "https://github.com/sovnedge/homebrew-public/releases/download/pocket-buddy-v0.1.0/pocket-buddy_0.1.0_linux_amd64.tar.gz"
-      sha256 "3dd115a478064048662c5b861092a6de288bc9a73e124ec5e2c7ab987d6879c7"
+      url "https://github.com/sovnedge/homebrew-public/releases/download/pocket-buddy-v0.2.0/pocket-buddy_0.2.0_linux_amd64.tar.gz"
+      sha256 "7b1c4be2e6a462f5db8071e4ada2ab199a27c2842f2ea37507cd92a031b397f2"
     end
   end
 
